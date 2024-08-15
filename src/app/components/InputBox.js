@@ -18,7 +18,7 @@ function InputBox ({
         <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
             <div className='w-1/2'>
             </div>
-            
+
             <lable htmlFor={amountInputId} className= "text-black/40 mb-2 inline-block">
             {lable}
             </lable>
@@ -44,7 +44,6 @@ function InputBox ({
             {currency}
              </option>
             ))}
-
             </select>
             </div>
             </div>

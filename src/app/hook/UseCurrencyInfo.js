@@ -8,7 +8,6 @@ function UseCurrencyInfo (Currency) {
         .then((res)=> setdata(res[Currency]))
         console.log(data);
     }, [Currency])
-    console.log(data);
     return (data)
 }
 export default UseCurrencyInfo
